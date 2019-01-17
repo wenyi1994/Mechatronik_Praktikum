@@ -41,5 +41,6 @@ varargout{3} = [q1, q2, q3, q4, q5, q6];
 #### 2. About the coordinate system
 * The manipulator system is modelled as below:
 ![image](https://github.com/wenyi1994/Mechatronik_Praktikum/blob/master/model.jpg)
-* According to the model and rules of Denavit-Hartenberg Parameter, the system can be simplified as below: 
+* Based on the model and rules of Denavit-Hartenberg Parameter, the system can be simplified as below: 
 ![image](https://github.com/wenyi1994/Mechatronik_Praktikum/blob/master/frame.jpg)
+* The origin is set on the remote top corner. The arrow starting from origin indicates the direction of z-axis. According to the right-hand rule, the short red line shows the direction of x-axis and the green line for y-axis. That is the basic coordinate system and also the global coordinate system for target position.
