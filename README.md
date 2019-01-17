@@ -5,5 +5,5 @@
 ```
 % Add a new key word to change start position of reading, the default flag is 'start':
 %                         dsoll = read_txt(path, file, 'pos', 'begin')
-For further usage see [read_txt.m](https://github.com/wenyi1994/Mechatronik_Praktikum/blob/master/read_txt.m).
 ```
+> For further usage see [read_txt.m](https://github.com/wenyi1994/Mechatronik_Praktikum/blob/master/read_txt.m).
