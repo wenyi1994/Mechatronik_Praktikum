@@ -26,3 +26,8 @@ q6=1.052;
 ```
 * The unit of pose are millimeter and degree. For joint parameters they are meter and radius.
 > The unit can also be converted easily, I just keep the unit of [Var_Vorlage.txt](https://github.com/wenyi1994/Mechatronik_Praktikum/blob/master/Var_Vorlage.txt) from tutor.
+```
+    varargout{1} = [x/1000,y/1000,z/1000]';
+    varargout{2} = phi/180*pi;
+    varargout{3} = [q1, q2, q3, q4, q5, q6];
+    ```
