@@ -1,1 +1,3 @@
-# Mechatronik_Praktikum
+# Mechatronik Praktikum
+## Kinematic part
+1. protocol of txt file
