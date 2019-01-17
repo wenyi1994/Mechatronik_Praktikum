@@ -3,6 +3,13 @@
 #### 1. protocol of txt file
 * Using `'start'` as a flag to mark the start reading position of a txt file. The [read_txt.m](https://github.com/wenyi1994/Mechatronik_Praktikum/blob/master/read_txt.m) function also supports other flags.
 ```
+% ----------------------------Syntax------------------------------------
+%                         dsoll = read_txt(path, file, 'pos')
+%                           phi = read_txt(path, file, 'phi')
+%               joint_parameter = read_txt(path, file, 'joint')
+%                  [dsoll, phi] = read_txt(path, file, 'pose')
+% [dsoll, phi, joint_parameter] = read_txt(path, file, 'all')
+% [dsoll, phi, joint_parameter] = read_txt(path, file)
 % Add a new key word to change start position of reading, the default flag is 'start':
 %                         dsoll = read_txt(path, file, 'pos', 'begin')
 ```
