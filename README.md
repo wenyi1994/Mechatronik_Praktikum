@@ -21,7 +21,7 @@ y=-500;
 z=500;    
 phi=30; 
 ```
-* The value of flag specifies following content. 1 for pose of target position of TCP and 2 for joint parameters of initial status. That indicates that it will read next 4 lines after `'flag=1'` and next 6 lines after `'flag=2'`.
+* The value of flag specifies following content. '1' for pose of target position of TCP and '2' for joint parameters of initial status. That indicates that it will read next 4 lines after `'flag=1'` and next 6 lines after `'flag=2'`.
 ```MATLAB
 start=2;             
 q1=1.289;            
