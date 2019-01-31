@@ -38,7 +38,7 @@ varargout{1} = [x/1000,y/1000,z/1000]';
 varargout{2} = phi/180*pi;
 varargout{3} = [q1, q2, q3, q4, q5, q6];
 ```
-#### 2. About the coordinate system
+#### 1. About the coordinate system
 * The manipulator system is modelled as below:
 ![image](https://github.com/wenyi1994/Mechatronik_Praktikum/blob/master/model.jpg)
 * Based on the model and rules of Denavit-Hartenberg Parameter, the system can be simplified as below: 
@@ -46,4 +46,5 @@ varargout{3} = [q1, q2, q3, q4, q5, q6];
 * The origin is set on the remote top corner. The arrow starting from origin indicates the direction of z-axis. According to the right-hand rule, the short red line shows the direction of x-axis and the green line for y-axis. That is the basic coordinate system and also **the global coordinate system for target position**.
 * Hence, there are some restrictions in the range of provided target position: 
     + x-value and z-value should be postive and y-value should be negative. 
-    + due to the range of linear motor, x-value cannot exceed 1400mm. 
+    + due to the range of linear motor, z-value cannot exceed 1400mm.
+    + according to the measurement, the platform is 1090 mm high and 1050 mm wide, so the range of x-value is [0, 1050] and for y-value [-1090, 0].
