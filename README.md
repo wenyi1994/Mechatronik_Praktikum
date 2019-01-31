@@ -31,3 +31,4 @@
     % get the value of var 'status_kin', the value is in 'double' type
     getVal(user, pwd, setname, 'status_kin', 'DOUBLE');
     ```
+    > Considering save some global variables also on the server, such as tolerance of impact checking, cycle time of checking.
