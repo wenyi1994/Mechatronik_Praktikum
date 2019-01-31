@@ -31,4 +31,9 @@
     % get the value of var 'status_kin', the value is in 'double' type
     getVal(user, pwd, setname, 'status_kin', 'DOUBLE');
     ```
-    > Considering save some global variables also on the server, such as tolerance of impact checking, cycle time of checking.
+    > Considering saving some global variables also on the server, such as tolerance of impact checking, cycle time of checking.
+#### 3. Running of the system
+* After clicking 'Run' button, the program is in continuous operation. It will check a starting flag on the server periodically, once a 'ready' situation is detected, it will then read the values of target position and initial joint parameters. These values will be saved locally until next period.
+* The program will create a folder named 'logs' in current path (if not existing), running log with timestamp will be saved there for debugging and checking.
+* After calculating, it will validate the values of target joint parameters. Through linear interpolation it create the trajectory of the path and check if the manipulator will hit the platform. If the result is valid, it will be saved then on the server, otherwise the program will set a 'not executable' mark on the server.
+* Finally the program gives a simulation of the process, premised with all the joints move simutaneously.
