@@ -38,3 +38,5 @@
 * After calculating, it will validate the values of target joint parameters. Through linear interpolation it create the trajectory of the path and check if the manipulator will hit the platform. If the result is valid, it will be saved then on the server, otherwise the program will set a 'not executable' mark on the server.
 * Finally the program gives a simulation of the process, premised with all the joints move simutaneously.
 * When everything is done, it will wait for the set time and next period starts.
+
+![image](https://github.com/wenyi1994/Mechatronik_Praktikum/blob/master/Pos_Simu.gif)
